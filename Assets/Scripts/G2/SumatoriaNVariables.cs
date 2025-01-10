@@ -1,4 +1,7 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 using System.Text;
 
@@ -8,7 +11,7 @@ public class SumatoriaNVariables : MonoBehaviour
     public TMP_InputField cantidadNumerosInput;
     public TMP_Text numerosGeneradosText;
     public TMP_Text sumaTotalText;
-    public UnityEngine.UI.Button generarButton;
+    public Button generarButton;
 
     void Start()
     {
